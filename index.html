@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail Client</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="page">
+      <!-- Header -->
+      <header>
+        <img src="./img/gmail_icon.png" alt="">
+        <h1>Gmail</h1>
+        <hr>
+        <input type="text" placeholder="Search" name="" value="">
+        <input type="button" name="" value="VAI" id="button_vai">
+      </header>
+
+      <!-- Main -->
+      <main>
+        <h2>You have <span id="enlighted_num">30</span> unread</h2>
+        <hr>
+        <div class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
+        </div>
+        <!-- Qui inserisco un id per modificare la classe della riga attiva -->
+        <div id="mail_active" class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
+        </div>
+        <div class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
+        </div>
+        <div class="mail_line">
+          <input type= "checkbox" name="" value="">
+          <strong>&#9733; Oggetto della email</strong>
+          - testo della email...
+        </div>
+        <hr>
+      </main>
+      <!-- Footer -->
+      <footer>
+        <strong>GMail</strong> <em>powered by Marco</em>
+      </footer>
+    </div>
+  </body>
+</html>
